@@ -1,0 +1,117 @@
+.banner{
+    height: 90vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(bahan/bglanding.png);
+    margin-bottom: 10rem;
+}
+
+/* Untuk Button Sign in */
+.custom-button { 
+    background-color: #293d3a;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+.custom-button:hover {
+    background-color: #1e2f2d;
+  }
+/* Untuk Button Sign in */
+
+
+.banner-content {
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main2{
+    margin-bottom: 20rem;
+}
+
+.main3{
+    height:50vh ;
+    width: 100%;
+    margin-bottom: 10rem;
+    background-color: #294B29;
+}
+
+
+
+    /* .main3sub{
+        background-color: blue;
+        border: blue;
+        border-color: black;
+    } */
+
+    /* Profile HTML */
+.col-4 img {
+        max-width: 100%;
+        height: 100%;
+}
+
+.ininyoba{
+    border: solid;
+    background-color: blueviolet;
+}
+
+.test{
+    border: solid;
+    background-color:transparent;
+}
+
+.tulis{
+    margin-bottom: 2rem;
+}
+
+
+
+/* Product HTML */
+
+
+.proban{
+    height: 90vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(bahan/build.png);
+}
+
+.proban2 {
+    height: 100%;
+    color: #DBE7C9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boundary{
+    border:right black;
+}
+
+.boundary2{
+    border: left black;
+}
+
+.catcrad{
+    color: #DBE7C9;
+    background-color: #3B482B;
+    height: 5vh;
+    margin-bottom: 10rem;
+}
+
+.productlay{
+    border:solid;
+    background-color: black;
+    
+}
+
+.footer{
+    background-color: #294B29;
+}
+
+
+
+

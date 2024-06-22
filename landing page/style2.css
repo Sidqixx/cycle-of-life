@@ -1,0 +1,127 @@
+.space1{
+    height: 577px;
+    background-color: rgb(255, 174, 174);
+}
+.space2{
+    height: 100px;
+    background-color: rgb(127, 236, 255);
+}
+.space3{
+    height: 300px;
+    background-color: rgb(49, 255, 42);
+    border: solid;
+    justify-content: center;
+}
+.side-image1 {
+    background-image: url('bahan/image-7.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.side-image1::before {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(8, 6, 6, 0.5);
+}
+.putih{
+    position: absolute;
+    z-index: 2;
+    color: white;
+    top: 30%;
+    left: 39%;
+    font-size: 5rem;
+    text-align: center;
+}
+.putih-desc{
+    position: absolute;
+    z-index: 2;
+    color: white;
+    top: 50%;
+    left: 28%;
+    right: 25%;
+    font-size: 18px;
+    text-align: center;
+}
+.margin-bot1{
+    margin-bottom: 5rem;
+}
+.img5-img {
+    max-width: 80%;
+    height: auto;
+}
+.navbar-custom {
+    background-color: #c5d5b5;
+}
+
+.jumbotron-custom {
+    background: url('https://via.placeholder.com/800x200') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.card-custom {
+    background-color: #f0f0f0;
+    color: black;
+}
+
+.card-footer-custom {
+    background-color: #d3d3d3;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.btn-custom {
+    background-color: #3a5d3a;
+    color: white;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.hero-section {
+    position: relative;
+}
+
+.hero-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.hero-img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+}
+
+.card-container {
+    padding: 20px;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}

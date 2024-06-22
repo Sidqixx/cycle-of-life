@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>About US</title>
+</head>
+
+<style>
+.contoh{
+    height: 577px;
+    background-color: rgb(255, 255, 255);
+}
+.contoh1{
+    height: 577px;
+    background-color: rgb(255, 255, 255);
+}
+.contoh2{
+    height: 90px;
+    background-color: rgb(255, 255, 255);
+}
+.contoh3{
+    height: 170px;
+    background-color: rgb(255, 255, 255);
+}
+.contoh4{
+    background-color: rgb(255, 255, 255);
+}
+.contoh5{
+    background-color: rgb(255, 255, 255);
+}
+.contoh6{
+    background-color: rgb(255, 255, 255);
+}
+.contoh7{
+    background-color: rgb(255, 255, 255);
+}
+.side-image1 {
+  background-image: url('bahan/image-1.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.side-image1::before {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(8, 6, 6, 0.5);
+}
+.putih{
+    position: absolute;
+    z-index: 2;
+    color: white;
+    top: 45%;
+    left: 39%;
+    font-size: 5rem;
+}
+.margin-bot1{
+  margin-bottom: 7rem;
+}
+.margin-bot2{
+  margin-bottom: 2mm;
+}
+.underline {
+  width: 100%;
+  height: 1px; /* Ubah ketebalan garis menjadi 4 pixel */
+  background-color: #aaaaaa;
+  margin-top: 0,5rem;
+  margin-bottom: 3rem;
+}
+.hero-img {
+  max-width: 80%;
+  height: auto;
+}
+.ourGoal-img {
+  max-width: 95%;
+  height: auto;
+}
+.joc-img {
+  max-width: 95%;
+  height: auto;
+}
+.participate-button {
+  background-color: #789461; /* Warna latar belakang */
+  border: 10px solid #50623A(0, 0, 0); /*Menghilangkan border*/
+  color: rgb(0, 0, 0); /* Warna teks */
+  padding: 10px 20px; /* Jarak teks dari batas button */
+  text-align: center; /* Perataan teks */
+  text-decoration: none; /* Menghilangkan underline pada teks */
+  display: inline-block; /* Menjadikan button sebagai elemen inline */
+  font-size: 25px; /* Ukuran font */
+  margin: 4px 2px; /* Jarak antar button */
+  cursor: pointer; /* Mengubah kursor menjadi pointer saat dihover */
+  border-radius: 4px; /* Membuat sudut button lebih tumpul */
+}
+.participate-button:hover {
+  background-color: #45a049; /* Warna latar belakang saat dihover */
+}
+</style>
+
+<body>
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-lg sticky-top" style="background-color:#DBE7C9">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bolder" href="#">
+          <img src="/landing page/bahan/BrLog.png" alt="brandlog">OF LIFE</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto fw-bold">
+            <li class="nav-item me-3">
+              <a class="nav-link" aria-current="page" href="profile.html">Our Story</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="product.html">Build</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="shop.html">Shop</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="voluntrip.html">Voluntrip</a>
+            </li>
+            <li class="nav-item d-flex align-items-center">
+              <a href="profile.html">
+                <img src="/landing page/bahan/profilelog.png" alt="" style="max-width: 30px; max-height: 30px; vertical-align: middle;">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- About US -->
+    <div class="margin-bot1 container-fluid">
+        <div class="row">
+            <div class="col-12 contoh side-image1">
+                <h1 class="fw-bold putih">About Us</h1>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Who Are We? -->
+    <div class="margin-bot1 contoh container-fluid">
+      <div class="row m-5">
+          <div class="col-12 contoh2">
+            <h1 class=" d-none d-lg-block fw-bold">WHO ARE WE?</h1>
+            <div class="underline"></div>
+            <!-- <hr class="mt-2 mb-9"> -->
+          </div>
+          <div class="col-4 ">
+            <img src="bahan/hero.png" alt="heroimg" class="hero-img">
+          </div>
+          <div class="col-8 ">
+            <p class="d-none d-lg-block fs-3 fw-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam quod totam quae maiores atque possimus necessitatibus et, 
+              earum facilis odit sequi inventore nobis, pariatur unde eos molestias dolores consectetur! Obcaecati nisi excepturi ipsum natus odio enim numquam 
+              officia a, error consequuntur modi animi commodi. Non autem obcaecati temporibus architecto animi quasi similique corporis quisquam aperiam numquam, 
+              dolor, deleniti harum distinctio repellat praesentium repellendus nihil fugiat possimus. 
+              Aperiam itaque fugit expedita debitis, porro ab, sint autem praesentium laboriosam harum optio nihil.
+            </p>
+          </div>
+      </div>
+    </div>
+
+    <!-- Our Goals -->
+    <div class="margin-bot1 contoh container-fluid">
+      <div class="row m-5">
+          <div class="col-12 contoh2">
+            <h1 class=" d-none d-lg-block fw-bold">OUR GOALS</h1>
+            <div class="underline"></div>
+            <!-- <hr class="mt-2 mb-9"> -->
+          </div>
+
+          <div class="col-12 contoh3 margin-bot2">
+            <p class="d-none d-lg-block fs-3 fw-light ">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed est nemo laudantium a, suscipit cupiditate, illo dolorem magnam numquam iure delectus ipsam saepe, minima perferendis excepturi vero vel perspiciatis! Nobis pariatur, eaque consequuntur voluptas minus possimus sit tempora? Repellat adipisci quo veniam sed beatae odit, provident reiciendis quos molestiae?
+            </p>
+          </div>
+
+          <div class="col-7 contoh4">
+              <img src="bahan/ourGoals.png" alt="heroimg" class="ourGoal-img">
+            </div>
+            <div class="col-5 contoh5">
+              <p class="d-none d-lg-block fs-3 fw-light">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quasi error odit magni impedit magnam, asperiores qui beatae odio deserunt, ea enim atque nam ullam, debitis iusto quod et. Tempora!
+              </p>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <!-- JOIN OUR COMMUNITY -->
+    <div class="contoh container-fluid">
+      <div class="row m-5">
+          <div class="col-12 contoh2">
+            <h1 class=" d-none d-lg-block fw-bold">JOIN OUR COMMUNITY</h1>
+            <div class="underline"></div>
+            <!-- <hr class="mt-2 mb-9"> -->
+          </div>
+
+          <div class="col-6 contoh7">
+            <p class="d-none d-lg-block fs-3 fw-light">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi explicabo nisi ipsa tempora laborum quis sapiente nesciunt ea laudantium saepe! Nisi quos, reprehenderit id maiores exercitationem tenetur perferendis earum quam animi placeat ea beatae voluptates! Porro magnam non ad alias eius aspernatur debitis fuga odio, quisquam minima cumque harum velit?
+            </p>
+          </div>
+
+          <div class="col-6 contoh6">
+            <img src="bahan/joc.png" alt="heroimg" class="joc-img">
+          </div>
+
+          <button class="participate-button fw-bold">
+            Participate
+          </button>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.js"></script>
+    <script src="js/+esm.js"></script>
+</body>
+</html>
